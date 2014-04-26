@@ -1,6 +1,4 @@
 build/
--target/.gitkeep
-/target/*
 tmp
 *.changes
 *.deb
