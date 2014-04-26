@@ -75,5 +75,4 @@ RUN cd ~/build/storm && PATH=${JAVA_HOME}/bin:${PATH} bash bin/build_release.sh 
 # Debian packaging for Storm
 
 RUN cd ~/build && git clone https://github.com/clearstorydata/storm-deb-packaging.git
-RUN cd ~/build/storm-deb-packaging && USER=root ./build_storm.sh
 
